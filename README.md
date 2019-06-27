@@ -17,18 +17,24 @@ This project is maintained by Pointzi and its demonstration how easily you can u
 4. Open `HackerNews.xcworkspace` in Xcode 8.0 or higher.
 
 ## Pointzi Integration
-Pointzi Integration can be done following two simple steps
-1. Include `#import <Pointzi/StreetHawkCore_Pointzi.h> ` in your application Bridging header (In this case HackerNews-Bridging-Header.h)
+Pointzi Integration can be done following three simple steps
+1. Include `#import <Pointzi/StreetHawkCore_Pointzi.h> ` in your application Bridging header (eg : HackerNews-Bridging-Header.h)
 2. Intialize Pointzi SDK in AppDelegate
     ``` swift
     SHApp.sharedInstance().registerInstall(forApp: "Ganesh_test", withDebugMode: false)
     ```
-
+3. Replace the base viewController class on which you want show Pointzi Widget with
+   ```
+    If orginal class `UIViewController`	replace with `StreetHawkBaseViewController`
+    If orginal class `UITableViewController` replace with `StreetHawkBaseTableViewController`
+    If orginal class `UICollectionViewController` replace with	`StreetHawkBaseCollectionViewController` 
+   ```
 
 ## Screenshots
 
-![Main View](Resources/screenshot1.png)
-![Browser View](Resources/screenshot2.png)
+![Example 1](Resources/Example_1.png)
+![Example 2](Resources/Example_2.png)
+![Example 3](Resources/Example_3.png)
 
 ## License
 

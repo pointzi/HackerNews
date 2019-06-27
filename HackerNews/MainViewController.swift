@@ -9,7 +9,7 @@
 import UIKit
 import SafariServices
 
-class MainViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, SFSafariViewControllerDelegate {
+class MainViewController: StreetHawkBaseViewController, UITableViewDataSource, UITableViewDelegate, SFSafariViewControllerDelegate {
   
   // MARK: Properties
   
