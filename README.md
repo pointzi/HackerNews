@@ -17,9 +17,9 @@ This project is maintained by Pointzi and its demonstration how easily you can u
 4. Open `HackerNews.xcworkspace` in Xcode 8.0 or higher.
 
 ## Pointzi Integration
-Pointzi Integration can be done following three simple steps
-1. Include `#import <Pointzi/StreetHawkCore_Pointzi.h> ` in your application Bridging header (eg : HackerNews-Bridging-Header.h)
-2. Intialize Pointzi SDK in AppDelegate
+Pointzi Integration can be done by following three simple steps:
+1. Include `#import <Pointzi/StreetHawkCore_Pointzi.h> ` in your application Bridging header (eg : HackerNews-Bridging-Header.h).
+2. Intialize Pointzi SDK in AppDelegate.
 
     ``` swift
     SHApp.sharedInstance().registerInstall(forApp: "Ganesh_test", withDebugMode: false)
