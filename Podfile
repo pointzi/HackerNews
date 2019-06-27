@@ -1,17 +1,9 @@
 platform :ios, '11.2'
-
-def pods
-  pod 'Firebase', '2.5.0'
-end
+use_frameworks! 
 
 target 'HackerNews' do
-  pods
+  pod 'Firebase', '2.5.0'
+  pod "pointzi"
 end
 
-target 'HackerNewsTests' do
-  pods
-end
 
-target 'HackerNewsUITests' do
-  pods
-end

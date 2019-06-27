@@ -16,6 +16,13 @@ This project is maintained by Pointzi and its demonstration how easily you can u
 3. `pod install` (requires [CocoaPods](https://cocoapods.org))
 4. Open `HackerNews.xcworkspace` in Xcode 8.0 or higher.
 
+## Pointzi Integration
+Pointzi Integration can be done following two simple steps
+1. Include `#import <Pointzi/StreetHawkCore_Pointzi.h> ` in your application Bridging header (In this case HackerNews-Bridging-Header.h)
+2. Intialize Pointzi SDK in AppDelegate
+    ``` swift
+    SHApp.sharedInstance().registerInstall(forApp: "Ganesh_test", withDebugMode: false)
+    ```
 
 
 ## Screenshots

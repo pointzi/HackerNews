@@ -1,12 +1,22 @@
 PODS:
   - Firebase (2.5.0)
+  - pointzi (1.5.0):
+    - pointzi/Lite (= 1.5.0)
+  - pointzi/Lite (1.5.0)
 
 DEPENDENCIES:
   - Firebase (= 2.5.0)
+  - pointzi
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Firebase
+    - pointzi
 
 SPEC CHECKSUMS:
   Firebase: 744617c0733b45198f9486ebd5cac64ec2d10d79
+  pointzi: 38fa6ef6161588138b4b579c3f24fe2ed7595aff
 
-PODFILE CHECKSUM: cfe3d047b5e96738ae1bd1990cbc89b44ba79618
+PODFILE CHECKSUM: b38f08b8764d418a7215c9d9b44849fcace21154
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.6.1
