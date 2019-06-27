@@ -27,9 +27,9 @@ Pointzi Integration can be done following three simple steps
 3. Replace the base viewController class on which you want show Pointzi Widget with
 
    ```
-    If orginal class UIViewController	replace with StreetHawkBaseViewController
-    If orginal class UITableViewController replace with StreetHawkBaseTableViewController
-    If orginal class UICollectionViewController replace with StreetHawkBaseCollectionViewController
+    If orginal class inherit from UIViewController then replace it with StreetHawkBaseViewController
+    If orginal class inherit from UITableViewController then replace it with StreetHawkBaseTableViewController
+    If orginal class inherit from UICollectionViewController then replace it with StreetHawkBaseCollectionViewController
    ```
 
 ## Screenshots
