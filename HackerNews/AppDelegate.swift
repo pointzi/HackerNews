@@ -21,7 +21,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     configureUI()
-    SHApp.sharedInstance().registerInstall(forApp: "Ganesh_test", withDebugMode: false)
+    
+    //Pointizi SDK Initialization
+    SHApp.sharedInstance().registerInstall(forApp: "pointzi_dev", withDebugMode: false)
+    
     return true
   }
   

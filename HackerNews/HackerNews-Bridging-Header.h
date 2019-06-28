@@ -7,4 +7,6 @@
 //
 
 #import <Firebase/Firebase.h>
+
+//Import Pointzi SDK Header
 #import <Pointzi/StreetHawkCore_Pointzi.h>

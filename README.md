@@ -13,8 +13,9 @@ This project is maintained by Pointzi and its demonstration how easily you can u
 
 1. `git clone https://github.com/pointzi/HackerNews.git`
 2. `cd HackerNews`
-3. `pod install` (requires [CocoaPods](https://cocoapods.org))
-4. Open `HackerNews.xcworkspace` in Xcode 8.0 or higher.
+3.  Add `pod 'pointzi'` to the Podfile
+4. `pod install` (requires [CocoaPods](https://cocoapods.org))
+5.  Open `HackerNews.xcworkspace` in Xcode 8.0 or higher.
 
 ## Pointzi Integration
 Pointzi Integration can be done by following three simple steps:
@@ -34,7 +35,9 @@ Pointzi Integration can be done by following three simple steps:
 
 ## Screenshots
 
-![Example](Resources/Example_1.png)
+![Example](Resources/Screenshot1.png)
+![Example](Resources/Screenshot2.png)
+
 
 
 ## License
