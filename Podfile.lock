@@ -1,22 +1,26 @@
 PODS:
   - Firebase (2.5.0)
-  - pointzi (1.5.0):
-    - pointzi/Lite (= 1.5.0)
-  - pointzi/Lite (1.5.0)
+  - paper-onboarding-pointzi (2.0.0)
+  - pointzi (1.5.2):
+    - pointzi/Lite (= 1.5.2)
+  - pointzi/Lite (1.5.2)
 
 DEPENDENCIES:
   - Firebase (= 2.5.0)
+  - paper-onboarding-pointzi
   - pointzi
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Firebase
+    - paper-onboarding-pointzi
     - pointzi
 
 SPEC CHECKSUMS:
   Firebase: 744617c0733b45198f9486ebd5cac64ec2d10d79
-  pointzi: 38fa6ef6161588138b4b579c3f24fe2ed7595aff
+  paper-onboarding-pointzi: 38c83eae3a332d14e67aed6f6be7e84b7da81bdb
+  pointzi: 559f539ea6258262194f67e02f4f218bb2ba4975
 
-PODFILE CHECKSUM: 3347f8eda4498572d9b34c750a8c36c8541e1520
+PODFILE CHECKSUM: 30737096873eb559de32e0f7fc0ffd1747f3c8e8
 
 COCOAPODS: 1.6.1

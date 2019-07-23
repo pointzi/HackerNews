@@ -23,7 +23,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     configureUI()
     
     //Pointizi SDK Initialization
-    SHApp.sharedInstance().registerInstall(forApp: "pointzi_dev", withDebugMode: false)
+    SHApp.sharedInstance().registerInstall(forApp: "pointzi_dev", withDebugMode: true)
+    //pointzi_dev
+    
     
     return true
   }
