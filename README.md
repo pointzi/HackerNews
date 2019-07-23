@@ -23,7 +23,7 @@ Pointzi Integration can be done by following three simple steps:
 2. Intialize Pointzi SDK in AppDelegate.
 
     ``` swift
-    SHApp.sharedInstance().registerInstall(forApp: "pointzi_dev", withDebugMode: false)
+    SHApp.sharedInstance().registerInstall(forApp: "pointzi_dev", withDebugMode: true)
     ```
 3. Replace the base viewController class on which you want show Pointzi Widget with
 
