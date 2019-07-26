@@ -43,3 +43,11 @@ Pointzi Integration can be done by following three simple steps:
 ## License
 
 [MIT](LICENSE)
+
+
+## Keywords
+iOS Swift Slider Infoslider Introslider Whatfix NPS Feedback Goal Goals Analytics Segment Segments Appcues Native Tools Tips
+
+Tours Tips Modals Tool Tipcarousel Tooltips Walkthrough Walkme Guide Bridge Module Pointzi StreetHawk TipsModals Paper onBoard
+
+Tooltiptooltip Tooltip
